@@ -32,8 +32,5 @@ function createBoxes(amount) {
   boxes.append(...arrayCollection);
 }
 function destroyBoxes() {
-  const elements = boxes.querySelectorAll("div");
-  for (const element of elements) {
-    element.remove();
-  }
+  boxes.innerHTML = "";
 }
