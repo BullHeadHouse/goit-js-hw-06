@@ -12,21 +12,13 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
 input {
   padding: 8px;
   font: inherit;
 }
-
 button {
   padding: 8px 12px;
   cursor: pointer;
-}
-ul {
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
 }
 img {
   display: block;
@@ -36,14 +28,17 @@ img {
   height: 300px;
   object-fit: cover;
 }
+
 .gallery {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  padding: 0;
   width: 1550px;
   height: 400px;
   background-color: lightsteelblue;
+  list-style: none;
 }
 .gallery__picture {
   width: 500px;
